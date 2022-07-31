@@ -1,0 +1,91 @@
+html {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(154, 151, 151);
+  }
+  h1{
+    text-align: center;
+  }
+  .dateadd{
+    display: flex;
+    justify-content: center;
+  }
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+  }
+  .usuario input {
+    width: 500px;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+  }
+  button {
+    margin-left: 4px;
+    background-color: green;
+    border: solid 1px green;
+    border-radius: 3px;
+    padding: 5px 4px;
+    color: white;
+  }
+  .datos {
+    display: flex;
+    justify-content: space-around;
+    /*width: 70%;*/
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    list-style: none;
+    width: 130px;
+    padding: 0px;
+  }
+  #ul-delete li button{
+    margin-top: 4px;
+    margin-top: 4px;
+    display: flex;
+    padding: 7px;
+  }
+  #ul-check input{
+    width: 50px;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+  }
+  #list-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-homework  {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-check {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-delete  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h4{
+    margin-bottom: 0px;
+  }
+  

@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="section">
+      <h1>Todo list</h1>
+      
+      <div class="dateadd">
+        <div class="subtitle">
+          <h4>Nueva tarea</h4>
+          <div class="usuario">
+            <input type="text" class="inputUser" name="Agrega una tarea" />
+            <button id="addButton">Agregar</button>
+          </div>
+        </div>
+      </div>
+      <div class="datos">
+        <div class="results">
+          <h4>
+            Total: <b><span id="total">0</span></b>
+          </h4>
+          <h4>
+            Realizadas: <b><span id="done">0</span></b>
+          </h4>
+        </div>
+        <div class="list">
+          <div id="list-id">
+            <h4>ID</h4>
+            <ul id="ul-id"></ul>
+          </div>
+          <div class="list-homework">
+            <h4>Tareas</h4>
+            <ul id="ul-homework"></ul>
+          </div>
+          <div class="list-complete">
+            <h4>Completado</h4>
+            <ul id="ul-check"></ul>
+          </div>
+          <div class="list-delete">
+            <h4>Eliminar</h4>
+            <ul id="ul-delete"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
