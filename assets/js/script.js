@@ -23,7 +23,7 @@ let taskList = [
     for (const task of taskList) {
       idHtml += `<li>${task.id}<li>`;
       taskHtml += `<li>${task.name}<li>`;
-      checkHtml += `<li><input type="checkbox" onchange="check(${task.id})" checked = ""/><li>`;
+      checkHtml += `<li><input type="checkbox" onchange="check(${task.id})" ${task.done ? "checked" : ""}/><li>`;
       deleteHtml += `<li><button onclick="remover(${task.id})">X</button><li>`;
     }
   
